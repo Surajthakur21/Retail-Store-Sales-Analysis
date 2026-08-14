@@ -52,7 +52,7 @@ VALUES
 -- ==========================================
 -- BASIC QUERIES (1-10)
 -- ==========================================
-
+'''sql
 -- 1. Display all records.
 SELECT * FROM store_sales;
 
@@ -173,3 +173,4 @@ SELECT
     MAX(total_amount) AS Highest_Sale,
     MIN(total_amount) AS Lowest_Sale
 FROM store_sales;
+'''
